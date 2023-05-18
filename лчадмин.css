@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background: linear-gradient(189.96deg, #005796 0%, #589AB6 92.53%);
+	margin: 0;
+  }
+
+ p,a,input{
+	font-family: 'Open Sans',sans-serif;
+    color: white;
+}
+h1,h2,h3,h4,th,td{
+	font-family: 'Oswald';
+    color: white;
+
+}
+h1{
+    margin: 50px 0 100px 0;
+    text-align: center;
+    font-size: 42px;
+}
+h2{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+img{
+    width: 100%;
+}
+  
+header{
+        display: flex;
+        margin:  0 200px 0 200px;
+  }
+main{
+    margin:  0 200px 0 200px;
+}
+  
+  .logo_img{
+    height: 50px;
+    width: 50px;
+
+}
+
+.header-nav{
+    display: flex;
+    margin: auto auto auto  auto;
+}
+
+.nav-a{
+    margin: auto 60px auto 60px;
+    color: white;
+
+}
+  main {
+    padding: 20px;
+  }
+  
+  .dashboard {
+    margin-bottom: 100px;
+    margin: 0 auto 100px auto;
+  }
+  
+  .summary-box {
+    background-color: #005796;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .summary-box h3 {
+    margin-top: 0;
+  }
+  
+  .clients {
+    margin-bottom: 40px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #005796;
+  }
+
+  .all-box{
+    margin: 0 0 0 350px;
+  }
+
+  a,button{
+    text-decoration: none;
+    color: white;
+    filter: drop-shadow(0px -1px 15px rgba(204, 141, 48, 0.25));
+}
+ button:active{
+    box-shadow: inset 2px 2px 18px rgba(0, 0, 0, 0.64);
+}
+ button:hover{
+    filter: drop-shadow(0px 0px 14px rgba(255, 217, 160, 0.25));
+}
+button:focus{
+    text-decoration: dashed;
+}
+footer{
+    background-color: #303030;
+    padding: 0 0 20px 0;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+  }
+  .container{
+    color: white;
+    margin:  0 200px 0 200px;
+  }
+  .footer-content{
+    display: flex;
+  }
+  .social-icons{
+    width: 80px;
+    height: 100px;
+  }
+  
+  .footer-column{
+  margin: 30px auto 0 auto;	
+  }
+  .fot{
+  margin: 0 20px 0 20px;
+  }
+  .footer-bottom{
+    text-align: center;
+  }
